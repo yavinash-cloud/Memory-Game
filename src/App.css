@@ -1,0 +1,25 @@
+.container {
+  border: 1px solid #dedede;
+  padding: 12px;
+  box-shadow: 0 0 4px 4px #dedede;
+  justify-items: center;
+  align-items: center;
+  gap: 0rem;
+  width: 660px;
+  /* perspective: 100%; */
+  max-width: 720px;
+}
+
+@media only screen and (min-width: 400px) {
+  .container {
+    border: 1px solid #dedede;
+    padding: 8px;
+    box-shadow: 0 0 4px 4px #dedede;
+    justify-items: center;
+    align-items: center;
+    gap: 0rem;
+    width: 460px;
+    /* perspective: 100%; */
+    max-width: 720px;
+  }
+}
